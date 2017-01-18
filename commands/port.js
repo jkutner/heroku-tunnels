@@ -8,7 +8,7 @@ const http = require('http')
 const fs = require('fs')
 const co = require('co');
 const socks = require('socksv5')
-var net = require("net");
+const net = require("net");
 const helpers = require('../lib/helpers')
 
 module.exports = {
